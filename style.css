@@ -39,7 +39,7 @@ div ~ p:hover{
   opacity: 0.8;
 }
 div ~ p:active{
-  background-color: rgb(173, 216, 230);
+  background-color:  hsl(75, 94%, 57%);
 }
 h2,h5{
   text-align: center;
@@ -61,6 +61,4 @@ main{
   padding-right: 2rem;
   border-radius: 0.4rem;
 }
-div + p{
-  background-color:  hsl(75, 94%, 57%);
-}
+
