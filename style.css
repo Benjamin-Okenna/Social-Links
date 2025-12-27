@@ -6,6 +6,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
 }
 img{
@@ -29,9 +31,8 @@ div ~ p{
   text-align: center;
   padding: 0.8rem;
   border-radius: 0.5rem;
-  width: 100%;
   cursor: pointer;
-  white-space: nowrap;
+ 
   
 }
 div ~ p:hover{
