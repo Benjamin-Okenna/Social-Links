@@ -21,24 +21,31 @@ img{
 div p{
   color: hsl(0, 2%, 77%);
   text-align: center;
+  font-size: 0.9em;
+  font-weight: 400;
+  
 }
 
 
-div ~ p{
+div ~ a{
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   font-size: 0.9em;
+  font-weight: 600;
   text-align: center;
+  display: block;
+  margin: 1rem 0;
+  text-decoration-line: none;
   padding: 0.8rem;
   border-radius: 0.5rem;
   cursor: pointer;
  
   
 }
-div ~ p:hover{
+div ~ a:hover{
   opacity: 0.8;
 }
-div ~ p:active{
+div ~ a:active{
   background-color:  hsl(75, 94%, 57%);
 }
 h2,h5{
