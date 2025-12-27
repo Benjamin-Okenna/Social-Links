@@ -1,7 +1,7 @@
 body{
   font-family: "Inter", sans-serif;
   background: hsl(0, 0%, 8%);
-  width: 50vw;
+  width: 90vw;
   min-height: 90vh;
   display: flex;
   justify-content: center;
