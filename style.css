@@ -6,8 +6,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 img{
   width: 3.13rem;
