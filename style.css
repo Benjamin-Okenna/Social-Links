@@ -30,7 +30,7 @@ Div ~ p{
   border-radius: 0.5rem;
   padding-left: 6.8rem;
   padding-right: 6.8rem;
-  width: 50%;
+  max-width: 100%;
   cursor: pointer;
 }
 div ~ p:hover{
