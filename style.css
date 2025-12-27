@@ -1,0 +1,69 @@
+body{
+  font-family: "Inter", sans-serif;
+  background: hsl(0, 0%, 8%);
+  width: 90vw;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+img{
+  width: 3.13rem;
+  max-width: 50%;
+  border-radius: 1.6rem;
+  margin-left: 40%;
+  margin-top: 1rem;
+  margin-bottom: 0;
+
+}
+div p{
+  color: hsl(0, 2%, 77%);
+  text-align: center;
+  max-width: 100%;
+
+  
+}
+
+Div ~ p{
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9em;
+  text-align: center;
+  max-width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  padding-left: 6.8rem;
+  padding-right: 6.8rem;
+  cursor: pointer;
+}
+div ~ p:hover{
+  opacity: 0.8;
+}
+div ~ p:active{
+  background-color: rgb(173, 216, 230);
+}
+h2,h5{
+  text-align: center;
+  
+}
+h2{
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+}
+h5{
+  color: hsl(75, 94%, 57%);
+  margin-top: 0;
+}
+main{
+  background: hsl(0, 0%, 12%);
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.4rem;
+}
+div + p{
+  background-color:  hsl(75, 94%, 57%);
+}
