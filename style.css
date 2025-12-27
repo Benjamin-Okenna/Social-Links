@@ -21,17 +21,18 @@ div p{
   text-align: center;
 }
 
-Div ~ p{
+
+div ~ p{
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   font-size: 0.9em;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.8rem;
   border-radius: 0.5rem;
-  padding-left: 8.8rem;
-  padding-right: 8.8rem;
-  
+  width: 100%;
   cursor: pointer;
+  white-space: nowrap;
+  
 }
 div ~ p:hover{
   opacity: 0.8;
