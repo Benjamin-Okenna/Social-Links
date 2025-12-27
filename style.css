@@ -28,9 +28,9 @@ Div ~ p{
   text-align: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  padding-left: 6.8rem;
-  padding-right: 6.8rem;
-  max-width: 100%;
+  padding-left: 8.8rem;
+  padding-right: 8.8rem;
+  
   cursor: pointer;
 }
 div ~ p:hover{
